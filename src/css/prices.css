@@ -1,0 +1,70 @@
+.prices {
+    background-color: #191C26;
+    background-image: url(../images/mobil/price-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 84px 0;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+
+    @media (min-resolution: 192dpi) {
+        background-image: url(../images/mobil/price-back@2x.png);
+    }
+}
+
+.prices-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 44px;
+}
+
+.wt-title {
+    font-family: "Raleway",
+        sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-bottom: 44px;
+}
+
+.prices-listt {
+    display: none;
+}
+
+.prices-llist {
+    width: 418px;
+    list-style: none;
+    padding: 30px 20px 30px 40px;
+
+}
+
+.prices-listt {
+    background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
+
+.prices-llist {
+    background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
+}
+
+.prices-item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+
+.dots {
+    flex-grow: 1;
+    border-bottom: 1px solid #9da4bd;
+    margin: 0 10px 8px 10px;
+}
+
+.btn-center .btn {
+    color: #fff;
+    margin: 0 auto;
+}

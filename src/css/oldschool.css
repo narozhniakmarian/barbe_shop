@@ -1,0 +1,72 @@
+.oldschool {
+    padding: 84px 0;
+}
+
+.oldschool-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 44px;
+    align-items: center;
+}
+
+.slot-box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.slot-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .oldschool-content .subtitle {
+        width: 340px;
+        margin: 0;
+    }
+}
+
+.mtop {
+    margin-top: 34px;
+}
+
+.slot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 133px;
+    background: #f7f7f7;
+    padding: 20px 24px;
+}
+
+.numeric {
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #303030;
+    margin-bottom: 6px;
+    display: flex
+}
+
+sup {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #ff6c00;
+    margin-top: 6px;
+    margin-left: 2px;
+
+}
+
+.slot-desc {
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+    color: #303030;
+}

@@ -1,0 +1,210 @@
+.footer {
+    width: 480px;
+    margin: 0 auto;
+
+}
+
+.booking {
+    background-color: #191c26;
+}
+
+.booking-box {
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form-container {
+    width: 418px;
+    margin-top: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 84px;
+}
+
+form {
+    margin-bottom: 44px;
+}
+
+input[type="tel"] {
+    width: 418px;
+}
+
+input[type="text"] {
+    width: 418px;
+}
+
+textarea {
+    width: 418px;
+    height: 78px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.name-phone {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 270px;
+}
+
+input,
+textarea {
+    padding: 8px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+
+
+.form-container .btn {
+    padding: 12px 62px;
+    background-color: transparent;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.contacts-container {
+    padding: 84px 30px;
+    width: 100%;
+    height: 564px;
+    display: block;
+    position: relative;
+    background: url(../images/mobil/footer-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @media (min-resolution: 192dpi) {
+        background-image: url(../images/mobil/footer-back@2x.png);
+    }
+}
+
+.footcont {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.local {
+    display: flex;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+
+.phone {
+    display: flex;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #9da4bd;
+}
+
+.meil {
+    display: flex;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #9da4bd;
+}
+
+.map {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: #9da4bd;
+}
+
+.work-day {
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.work-day .divider {
+    margin-left: 30px;
+    background-color: #fff;
+}
+
+.work-day .gray-span-desc {
+    color: #fff;
+}
+
+.work-hours {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+
+.footer-down-box {
+    background-color: #fff;
+    border: none;
+    padding: 44px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyrigth {
+    display: block;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: #9da4bd;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.dow-soc-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.dow-soc-wrapper .divider {
+    background-color: #191c26;
+}
+
+.dow-soc-wrapper a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: #303030;
+
+}

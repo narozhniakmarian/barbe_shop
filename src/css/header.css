@@ -1,0 +1,38 @@
+.top-nav {
+    display: none;
+}
+
+.mobil-header {
+    position: absolute;
+    max-width: 440px;
+    top: 40px;
+    left: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-icon {
+    fill: #fff;
+}
+
+.berger-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.burger-icon {
+    fill: #fff;
+}
+
+.berger-btn:hover .burger-icon {
+    fill: #FF6C00;
+}

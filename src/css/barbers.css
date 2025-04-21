@@ -1,0 +1,84 @@
+.barbers {
+    background-color: #F7F7F7;
+    padding: 84px 0;
+}
+
+.barbers .sec-title {
+    font-size: 42px;
+    margin-bottom: 44px;
+}
+
+.barbers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-top: 24px;
+}
+
+.barbers-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.barbername {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #303030;
+    margin-bottom: 8px;
+}
+
+.barber-class {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ff6c00;
+}
+
+.soc-icon ul {
+    display: flex;
+    gap: 10px;
+}
+
+.soc-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.soc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.soc-svg use {
+    fill: currentColor;
+}
+
+.soc-svg {
+    width: 20px;
+    height: 20px;
+    fill: #303030;
+    transition: fill 0.3s ease;
+}
+
+.soc:hover {
+    background-color: #b9dcef;
+    transform: scale(1.1);
+    color: #f38908;
+}
+
+.soc:hover .soc-svg {
+    fill: #f38908;
+
+}
